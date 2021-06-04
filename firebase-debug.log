@@ -44,3 +44,42 @@ You're about to initialize a Firebase project in this directory:
 [info] will contain Hosting assets to be uploaded with firebase deploy. If you
 [info] have a build process for your assets, use your build's output directory.
 [info] 
+[debug] [2021-06-04T07:07:22.191Z] ----------------------------------------------------------------------
+[debug] [2021-06-04T07:07:22.197Z] Command:       D:\Apps\nodejs\node.exe C:\Users\Wabwi\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-06-04T07:07:22.198Z] CLI Version:   9.11.0
+[debug] [2021-06-04T07:07:22.199Z] Platform:      win32
+[debug] [2021-06-04T07:07:22.199Z] Node Version:  v14.16.1
+[debug] [2021-06-04T07:07:22.202Z] Time:          Fri Jun 04 2021 10:07:22 GMT+0300 (East Africa Time)
+[debug] [2021-06-04T07:07:22.202Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-06-04T07:07:22.237Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-06-04T07:07:22.238Z] > authorizing via signed-in user (wabwiibrahim@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Drive\comp sci\web dev\JavaScript\Learning JS\React\covid-19-tracker
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2021-06-04T07:07:42.111Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2021-06-04T07:07:43.267Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2021-06-04T07:07:43.267Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project covid-19-tracker-dcc01 (covid-19-tracker) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
