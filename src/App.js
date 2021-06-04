@@ -92,7 +92,7 @@ function App() {
             casesType={casesType}
             active={casesType === "cases"} 
             onClick={ (e) => setCasesType("cases")}
-            title="Corona Cases"
+            title="New Cases"
             cases={prettyPrintStat(countryInfo.todayCases)} total={prettyPrintStat(countryInfo.cases)} />
           <InfoBox
             casesType={casesType}
