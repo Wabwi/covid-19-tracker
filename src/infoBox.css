@@ -65,6 +65,10 @@
         margin-top: 15px !important;
     }
 
+    .infoBox__title {
+        font-size: 0.8rem !important;
+    }
+
     .infoBoxContent {
         position: relative;
         top: 15%;
@@ -93,5 +97,9 @@
     .infoBoxContent {
         position: relative;
         top: 15%;
+    }
+
+    .infoBox:not(:last-child) {
+        margin-right: 10px;
     }
 }
